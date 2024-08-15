@@ -10,18 +10,18 @@ body {
 /* ================== NAVBAR ================== */
 
 .navbar-fixed {
-    @apply fixed z-[999] bg-white bg-opacity-70 backdrop-blur-sm;
+    @apply fixed z-[999] bg-white bg-opacity-70 backdrop-blur-sm dark:bg-dark dark:bg-opacity-50;
 }
 
 .navbar-notfixed {
-    @apply bg-white bg-opacity-70 backdrop-blur-sm drop-shadow-2xl;
+    @apply bg-white bg-opacity-70 backdrop-blur-sm shadow-custom;
 }
 
 
 /* ================== HAMBURGER ================== */
 
 .hamburger-line {
-    @apply w-[30px] h-[2px] block my-2 bg-dark;
+    @apply w-[30px] h-[2px] block my-2 bg-dark dark:bg-white;
 }
 
 .hamburger-active > span:nth-child(1) {
@@ -36,3 +36,8 @@ body {
     @apply -rotate-45;
 }
 
+/* ================== MODE TOGGLE ================== */
+
+#dark-toggle:checked ~ label div.toggle-circle {
+    @apply translate-x-3
+}

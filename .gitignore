@@ -1,1 +1,9 @@
+
+# NPM Packages
 node_modules/
+
+
+# Prettier
+prettier.config.js
+
+.prettierrc

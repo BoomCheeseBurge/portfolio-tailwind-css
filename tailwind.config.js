@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["index.html"],
+  darkMode: 'class',
   theme: {
     container: {
       center: true,
@@ -15,6 +16,9 @@ module.exports = {
       },
       screens: {
         '2xl' : '1320px'
+      },
+      boxShadow: {
+        'custom': 'inset 0 -1px 0 0 rgba(0, 0, 0, 0.2)',
       },
     },
   },

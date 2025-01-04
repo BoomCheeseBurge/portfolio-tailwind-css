@@ -4,3 +4,7 @@
 </h1>
 
 This is a simple one-page project showcasing an introduction to TailwindCSS utilizing its prominent and common features.
+
+The project provides a dark mode toggle to view the page in dark or light mode.
+
+There is also configuration added to the Tailwind config file to add more colors, screen size breakpoints, and even custom plugins.
